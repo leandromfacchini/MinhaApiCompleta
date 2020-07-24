@@ -3,7 +3,7 @@ using DevIO.Data.Context;
 using DevIO.Data.Repository;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DevIo.Api.Configuration
+namespace DevIO.Api.Configuration
 {
     public static class DependencyInjectionConfig
     {

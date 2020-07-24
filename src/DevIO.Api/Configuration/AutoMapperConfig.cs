@@ -1,8 +1,8 @@
 using AutoMapper;
-using DevIo.Api.ViewModels;
+using DevIO.Api.ViewModels;
 using DevIO.Business.Models;
 
-namespace DevIo.Api.Configuration
+namespace DevIO.Api.Configuration
 {
     public class AutoMapperConfig : Profile
     {

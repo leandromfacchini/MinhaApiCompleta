@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace DevIo.Api
+namespace DevIO.Api
 {
     public class Program
     {

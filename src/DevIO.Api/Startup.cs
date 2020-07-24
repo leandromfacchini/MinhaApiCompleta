@@ -1,5 +1,5 @@
 using AutoMapper;
-using DevIo.Api.Configuration;
+using DevIO.Api.Configuration;
 using DevIO.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace DevIo.Api
+namespace DevIO.Api
 {
     public class Startup
     {
@@ -24,7 +24,8 @@ namespace DevIo.Api
         {
             services.AddDbContext<MeuDbContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly("DevIO.Api"));
             });
 
             services.AddAutoMapper(typeof(Startup));

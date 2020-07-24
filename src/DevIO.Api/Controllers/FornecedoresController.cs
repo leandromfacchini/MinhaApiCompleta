@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
-using DevIo.Api.ViewModels;
+using DevIO.Api.ViewModels;
 using DevIO.Business.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DevIo.Api.Controllers
+namespace DevIO.Api.Controllers
 {
     [Route("api/{controller}")]
     public class FornecedoresController : MainController

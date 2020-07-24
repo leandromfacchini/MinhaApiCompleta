@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace DevIo.Api.ViewModels
+namespace DevIO.Api.ViewModels
 {
     public class FornecedorViewModel
     {
