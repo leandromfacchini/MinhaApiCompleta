@@ -1,0 +1,9 @@
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/bin/Debug/netcoreapp3.1/DevIO.Business.deps.json
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/bin/Debug/netcoreapp3.1/DevIO.Business.dll
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/bin/Debug/netcoreapp3.1/DevIO.Business.pdb
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.csprojAssemblyReference.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.csproj.CoreCompileInputs.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.AssemblyInfoInputs.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.AssemblyInfo.cs
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.dll
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/obj/Debug/netcoreapp3.1/DevIO.Business.pdb

@@ -1,0 +1,4 @@
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Api/obj/Debug/netcoreapp2.2/DevIO.Api.csprojAssemblyReference.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Api/obj/Debug/netcoreapp2.2/DevIO.Api.csproj.CoreCompileInputs.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Api/obj/Debug/netcoreapp2.2/DevIO.Api.AssemblyInfoInputs.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Api/obj/Debug/netcoreapp2.2/DevIO.Api.AssemblyInfo.cs

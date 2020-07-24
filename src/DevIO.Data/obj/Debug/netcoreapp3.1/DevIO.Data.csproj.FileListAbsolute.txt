@@ -1,0 +1,15 @@
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.deps.json
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.dll
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.pdb
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Business.dll
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Business.pdb
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.csprojAssemblyReference.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.csproj.CoreCompileInputs.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.AssemblyInfoInputs.cache
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.AssemblyInfo.cs
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.csproj.CopyComplete
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.dll
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.pdb
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.runtimeconfig.json
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.runtimeconfig.dev.json
+/home/leandro/repos/MinhaApiCompleta/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.genruntimeconfig.cache

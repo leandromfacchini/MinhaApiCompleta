@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yaik3l1+eWQ29tjKSekTXrSm59Ka52B7olk2IlGAfIcJLzi09S4WMyk1IQ6V8ikd/9MfhQYkLttkm1zNmYlPQw==",
+  "success": true,
+  "projectFilePath": "/home/leandro/repos/MinhaApiCompleta/src/DevIO.Business/DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "/home/leandro/.nuget/packages/fluentvalidation/8.6.2/fluentvalidation.8.6.2.nupkg.sha512",
+    "/home/leandro/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
