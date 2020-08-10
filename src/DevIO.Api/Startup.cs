@@ -24,8 +24,7 @@ namespace DevIO.Api
         {
             services.AddDbContext<MeuDbContext>(options =>
             {
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-                    b => b.MigrationsAssembly("DevIO.Api"));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
             services.AddAutoMapper(typeof(Startup));
