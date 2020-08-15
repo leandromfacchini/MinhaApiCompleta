@@ -7,21 +7,22 @@
 
     <ItemGroup>
 
-        <ProjectReference Include="..\DevIO.Business\DevIO.Business.csproj"/>
-        <ProjectReference Include="..\DevIO.Data\DevIO.Data.csproj"/>
+        <ProjectReference Include="..\DevIO.Business\DevIO.Business.csproj" />
+        <ProjectReference Include="..\DevIO.Data\DevIO.Data.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-        <Compile Remove="WeatherForecast.cs"/>
-        <Compile Remove="Configuration\DesignTimeDbContextFactory.cs"/>
+        <Compile Remove="WeatherForecast.cs" />
+        <Compile Remove="Configuration\DesignTimeDbContextFactory.cs" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1"/>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="Extensions"/>
+        <Folder Include="Extensions" />
     </ItemGroup>
 
 </Project>
