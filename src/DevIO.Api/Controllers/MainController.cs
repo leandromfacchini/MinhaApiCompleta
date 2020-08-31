@@ -37,12 +37,12 @@ namespace DevIO.Api.Controllers
                 success = false,
                 errors = _notificador.ObterNotificacoes().Select(any => any.Mensagem)
             });
-            
+
         }
 
         protected ActionResult CustomResponse(ModelStateDictionary modelState)
         {
-            if (modelState.IsValid) NotificarErroModelInvalida(modelState);
+            if (!modelState.IsValid) NotificarErroModelInvalida(modelState);
 
             return CustomResponse();
         }
