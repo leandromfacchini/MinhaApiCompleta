@@ -86,7 +86,8 @@ namespace DevIO.Api.Controllers
                 NotificarErro("Forneça uma imagem para este produto!");
                 return false;
             }
-            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagens", imgNome);
+
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/app/demo-webapi/src/assets", imgNome);
 
             if (System.IO.File.Exists(filePath))
             {

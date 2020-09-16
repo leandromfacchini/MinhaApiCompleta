@@ -41,7 +41,8 @@ namespace DevIO.Api
                 builder => builder.AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader()
-                .AllowCredentials());
+                // .AllowCredentials()
+                );
             });
 
             services.ResolveDependencies();
