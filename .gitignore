@@ -418,3 +418,10 @@ testem.log
 .DS_Store
 Thumbs.db
 
+src/DevIO.Api/obj/*
+src/DevIO.Api/obj/Debug/netcoreapp3.1/DevIO.Api.csprojAssemblyReference.cache
+src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.csprojAssemblyReference.cache
+src/DevIO.Api/bin/Debug/netcoreapp3.1/DevIO.Api.deps.json
+src/DevIO.Api/bin/Debug/netcoreapp3.1/DevIO.Api.deps.json
+src/DevIO.Api/bin/Debug/netcoreapp3.1/DevIO.Api.deps.json
+src/DevIO.Api/bin/Debug/netcoreapp3.1/DevIO.Api.dll
