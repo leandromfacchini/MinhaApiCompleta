@@ -20,7 +20,13 @@ namespace DevIO.Api.Configuration
                 builder => builder.AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader()
-                // .AllowCredentials()
+                );
+
+                options.AddPolicy("Production",
+                builder =>
+                    builder.WithMethods("GET")
+                .WithOrigins("")
+                .AllowAnyHeader()
                 );
             });
 
