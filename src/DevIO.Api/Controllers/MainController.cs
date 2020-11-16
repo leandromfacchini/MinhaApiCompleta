@@ -29,7 +29,7 @@ namespace DevIO.Api.Controllers
             }
         }
 
-        public bool OperacaoValida()
+        protected bool OperacaoValida()
         {
             return !_notificador.TemNotificacao();
         }
