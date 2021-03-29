@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
+
 namespace DevIO.Api
 {
     public class Startup
@@ -34,6 +35,12 @@ namespace DevIO.Api
 
             services.AddSwaggerConfig();
 
+            services.AddHealthChecks()
+                .AddSqlServer(Configuration.GetConnectionString("DefaultConnection"), name: "BancoSql");
+
+            services.AddHealthChecksUI();
+
+
             services.ResolveDependencies();
         }
 
@@ -53,6 +60,9 @@ namespace DevIO.Api
 
             app.UseSwaggerConfig(provider);
 
+            app.UseHealthChecks("/api/hc");
+
+            app.UseHealthChecksUI(options => { options.UIPath = "/api/hc-ui"});
         }
     }
 }
